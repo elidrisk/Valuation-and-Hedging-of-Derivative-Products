@@ -32,7 +32,7 @@ make
 make install
 ```
 
--   **Installation du `nlohmann-json`:**
+-   **`nlohmann-json` Installation:**
 
 ```bash
 sudo apt update
@@ -49,12 +49,12 @@ make
 ./nomExecutable args
 ```
 
--   **configuration vscode:**
+-   **VSCode Configuration:**
 
-    -   Ouvrir le fichier `c_cpp_properties.json`
-    -   Ajouter dans `includePath`: **`"relative/path/to/lib/pnl/build/include/"`**
+    -   Open the  `c_cpp_properties.json` file
+    -   Add to `includePath`: **`"relative/path/to/lib/pnl/build/include/"`**
 
--   **Ajouter un executable dans `CMakeLists.txt`:**
+-   **Add an executable in `CMakeLists.txt`:**
 
 ```Makefile
 add_executable(nomExecutable _liste_des_fichiers_cpp)
